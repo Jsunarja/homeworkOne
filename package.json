@@ -1,0 +1,22 @@
+{
+  "name": "com.jsunarja.homeworkone",
+  "version": "1.0.0",
+  "description": "This is First Homework",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "this is a test",
+    "compile": "node-sass scss/main.scss css/main.css -w",
+    "server": "live-server"
+  },
+  "author": "Jerremiah Sunarja",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

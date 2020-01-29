@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px; }
+
+body {
+  background-color: rgba(255, 177, 1, 0.25); }
+
+.header {
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black), url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .header .headerText {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 100px; }
+    .header .headerText h1 {
+      font-size: 300%; }
+    .header .headerText h4 {
+      font-size: 300%; }
+
+.sectionOne {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+  overflow: auto;
+  background-color: rgba(255, 177, 1, 0.25); }
+  .sectionOne p {
+    font-size: 20px; }
+  .sectionOne .imgOne {
+    height: 50%;
+    background-image: url(../images/scrunchies.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: auto; }
+  .sectionOne .imgTwo {
+    height: 50%;
+    background-image: url(../images/jewlery.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: auto; }
+  .sectionOne .imgThree {
+    height: 50%;
+    background-image: url(../images/stickers.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: auto; }
+  .sectionOne .imgFour {
+    height: 50%;
+    background-image: url(../images/prints.jpeg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: auto; }
+  .sectionOne .contentOne {
+    float: left;
+    height: 100%;
+    width: 25%;
+    padding: 50px;
+    border-right: 1px solid black; }
+  .sectionOne .contentTwo {
+    float: left;
+    height: 100%;
+    width: 25%;
+    padding: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+  .sectionOne .contentThree {
+    float: left;
+    height: 100%;
+    width: 25%;
+    padding: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+  .sectionOne .contentFour {
+    float: left;
+    height: 100%;
+    width: 25%;
+    padding: 50px;
+    border-left: 1px solid black; }
+  @media only screen and (max-width: 1200px) {
+    .sectionOne .contentOne, .sectionOne .contentTwo, .sectionOne .contentThree, .sectionOne .contentFour {
+      width: 50%;
+      height: 50%; }
+    .sectionOne .contentOne {
+      border-bottom: 1px solid black; }
+    .sectionOne .contentTwo {
+      border-bottom: 1px solid black;
+      border-right: none; }
+    .sectionOne .contentThree {
+      border-top: 1px solid black;
+      border-left: none; }
+    .sectionOne .contentFour {
+      border-top: 1px solid black; }
+    .sectionOne .imgOne {
+      background-position-y: 50%; }
+    .sectionOne .imgTwo {
+      background-position-y: 70%; }
+    .sectionOne .imgThree {
+      background-position-y: 50%; }
+    .sectionOne .imgFour {
+      background-position-y: 75%; } }
+  @media only screen and (max-width: 720px) {
+    .sectionOne .contentOne, .sectionOne .contentTwo, .sectionOne .contentThree, .sectionOne .contentFour {
+      width: 100%;
+      height: 25%; }
+    .sectionOne .contentOne {
+      border-right: none; }
+    .sectionOne .contentTwo {
+      border-top: 1px solid black;
+      border-left: none; }
+    .sectionOne .contentThree {
+      border-bottom: 1px solid black;
+      border-right: none; }
+    .sectionOne .contentFour {
+      border-left: none; }
+    .sectionOne p {
+      display: none; }
+    .sectionOne .imgOne {
+      display: none; }
+    .sectionOne .imgTwo {
+      display: none; }
+    .sectionOne .imgThree {
+      display: none; }
+    .sectionOne .imgFour {
+      display: none; } }
+
+.sectionTwo {
+  min-height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(255, 177, 1, 0.5);
+  display: flex; }
+  .sectionTwo h1 {
+    text-align: center; }
+  .sectionTwo .policies {
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    border-right: 1px solid black; }
+  .sectionTwo .faq {
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    border-left: 1px solid black; }
+  @media only screen and (max-width: 900px) {
+    .sectionTwo .policies {
+      width: 100%;
+      height: 50%;
+      border-bottom: 1px solid black;
+      border-right: none; }
+    .sectionTwo .faq {
+      width: 100%;
+      height: 50%;
+      border-top: 1px solid black;
+      border-left: none; } }
